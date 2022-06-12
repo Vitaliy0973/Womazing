@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="files/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.min.css">
-    <title>Womazing - Товар</title>
+    <title>Womazing - Контакты</title>
 </head>
 
 <body>
@@ -32,9 +32,9 @@
         <nav class="header__menu menu">
             <ul class="menu__list">
                 <li class="menu__item"><a href="index.html" class="menu__link @@active-main">Главная</a></li>
-                <li class="menu__item"><a href="catalog.html" class="menu__link menu__link_active">Магазин</a></li>
+                <li class="menu__item"><a href="catalog.html" class="menu__link @@active-catalog">Магазин</a></li>
                 <li class="menu__item"><a href="about.html" class="menu__link @@active-about">О бренде</a></li>
-                <li class="menu__item"><a href="contacts.html" class="menu__link @@active-contacts">Контакты</a></li>
+                <li class="menu__item"><a href="contacts.html" class="menu__link menu__link_active">Контакты</a></li>
             </ul>
         </nav>
         <div class="header__block">
@@ -63,113 +63,67 @@
         </div>
     </div>
 </header>
-
-        <main class="oneitem-main">
-            <section class="oneitem-main__oneitem-title oneitem-title">
-                <div class="oneitem-title__conteiner _container">
-                    <h1 class="oneitem-title__title">Свитшот Sweet Shot</h1>
-                    <div class="oneitem-title__breadcrumb">
+        <main class="contacts-main">
+            <section class="contacts-main__about-title contacts-title">
+                <div class="contacts-title__conteiner _container">
+                    <h1 class="contacts-title__title">Контакты</h1>
+                    <div class="contacts-title__breadcrumb">
                         <nav style="--bs-breadcrumb-divider: '—';" aria-label="breadcrumb">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item oneitem-title__item"><a href="index.html">Главная</a></li>
-                                <li class="breadcrumb-item oneitem-title__item"><a href="catalog.html">Свитшоты</a></li>
-                                <li class="breadcrumb-item active oneitem-title__item" aria-current="page">Свитшот Sweet
-                                    Shot
+                                <li class="breadcrumb-item contacts-title__item"><a href="index.html">Главная</a></li>
+                                <li class="breadcrumb-item active contacts-title__item" aria-current="page">Контакты
                                 </li>
                             </ol>
                         </nav>
                     </div>
                 </div>
             </section>
-            <section class="oneitem-main oneproduct">
-                <div class="oneproduct__container _container">
-                    <div class="oneproduct__row">
-                        <div class="oneproduct__image _img">
-                            <picture><source srcset="img/oneitem/photo.webp" type="image/webp"><img src="img/oneitem/photo.jpg" alt=""></picture>
+            <div class="contacts-main__map-contacts map-contacts">
+                <div class="map-contacts__container _container">
+                    <div class="map-contacts__body">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2187.634170046581!2d37.61303974613008!3d55.756058503596414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a51ada84361%3A0x58d26b301983014c!2z0J7RhdC-0YLQvdGL0Lkg0KDRj9C0!5e0!3m2!1sru!2str!4v1655020187470!5m2!1sru!2str"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="contacts-main__contacts-info contacts-info">
+                <div class="contacts-info__container _container">
+                    <div class="contacts-info__row">
+                        <div class="contacts-info__phone">
+                            <div class="contacts-info__label">Телефон</div>
+                            <a href="tel:+74958235412" class="contacts-info__phone-number">+7 (495) 823-54-12</a>
                         </div>
-                        <div class="oneproduct__body">
-                            <div class="oneproduct__content">
-                                <div class="oneproduct__cost">
-                                    <div class="oneproduct__price">$311</div>
-                                    <del class="oneproduct__sale">$450</del>
-                                </div>
-                                <div class="oneproduct__size">
-                                    <div class="oneproduct__size-label">Выберите размер</div>
-                                    <div class="oneproduct__size-buttons">
-                                        <button class="oneproduct__size-button">S</button>
-                                        <button
-                                            class="oneproduct__size-button oneproduct__size-button_active">M</button>
-                                        <button class="oneproduct__size-button">L</button>
-                                        <button class="oneproduct__size-button">XL</button>
-                                        <button class="oneproduct__size-button">XL</button>
-                                    </div>
-                                </div>
-                                <div class="oneproduct__color">
-                                    <div class="oneproduct__color-label">Выберите цвет</div>
-                                    <div class="oneproduct__color-buttons">
-                                        <button class="oneproduct__color-button oneproduct__color-button_1"></button>
-                                        <button
-                                            class="oneproduct__color-button oneproduct__color-button_2 oneproduct__color-button_active"></button>
-                                        <button class="oneproduct__color-button oneproduct__color-button_3"></button>
-                                        <button class="oneproduct__color-button oneproduct__color-button_4"></button>
-                                    </div>
-                                </div>
-                                <form action="#" method="get">
-                                    <input class="oneproduct__input" type="text" value="1">
-                                    <button class="oneproduct__button" type="submit">Добавить в корзину</button>
-                                </form>
-                            </div>
+                        <div class="contacts-info__email">
+                            <div class="contacts-info__label">E-mail</div>
+                            <a href="mailto:info@sitename.com" class="contacts-info__email-info">info@sitename.com</a>
+                        </div>
+                        <div class="contacts-info__address">
+                            <div class="contacts-info__label">Адрес</div>
+                            <div class="contacts-info__address_text">г. Москва, 3-я улица Строителей, 25</div>
                         </div>
                     </div>
                 </div>
-            </section>
-            <section class="oneproduct-main__similar-products similar-products">
-                <div class="similar-products__container _container">
-                    <div class="similar-products__row">
-                        <div class="similar-products__body">
-                            <h4 class="similar-products__title">Связанные товары</h4>
-                            <div class="similar-products__cards">
-                                <div class="similar-products__column">
-                                    <article class="similar-products__card-vs card-vs">
-                                        <a href="oneitem.html" class="card-vs__image _ibg">
-                                            <img src="img/cards/t-shirt-usa.jpg" alt="A single source
-                                            of truth">
-                                        </a>
-                                        <div class="card-vs__content">
-                                            <a href="oneitem.html" class="card-vs__link">
-                                                <h4 class="card-vs__title">Футболка USA</h4>
-                                            </a>
-                                            <div class="card-vs__cost">
-                                                <del class="card-vs__sale">$229</del>
-                                                <div class="card-vs__price">$129</div>
-                                            </div>
-                                        </div>
-                                    </article>
-                                </div>
-                                <div class="similar-products__column">
-                                    <article class="similar-products__card-vs card-vs">
-                                        <a href="oneitem.html" class="card-vs__image _ibg">
-                                            <img src="img/cards/swimsuit-glow.jpg" alt="A single source
-                                            of truth">
-                                        </a>
-                                        <div class="card-vs__content">
-                                            <a href="oneitem.html" class="card-vs__link">
-                                                <h4 class="card-vs__title">Купальник Glow</h4>
-                                            </a>
-                                            <div class="card-vs__cost">
-                                                <del class="card-vs__sale card-vs__sale_none">$229</del>
-                                                <div class="card-vs__price">$129</div>
-                                            </div>
-                                        </div>
-                                    </article>
-                                </div>
-                            </div>
+            </div>
+            <div class="contacts-main__contacts-form contacts-form">
+                <div class="contacts-form__container _container">
+                    <div class="contacts-form__row">
+                        <div class="contacts-form__body">
+                            <h6 class="contacts-form__subtitle">Напишите нам</h6>
+                            <form action="#" method="get" class="contacts-form__form">
+                                <input type="text" name="username" id="" placeholder="Имя">
+                                <input type="email" name="email" id="" placeholder="E-mail">
+                                <input type="number" name="phone" id="" placeholder="Телефон">
+                                <textarea name="message" id="" cols="30" rows="10" placeholder="Сообщение"></textarea>
+                                <button type="submit">Отправить</button>
+                            </form>
+                            <div class="contacts-form__message">Сообщение успешно отправлено</div>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
         </main>
-
         <footer class="footer">
     <div class="footer__container _container">
         <div class="footer__body">
@@ -195,11 +149,11 @@
                             <li class="menu__item"><a href="index.html" class="menu__link @@active-main">Главная</a>
                             </li>
                             <li class="menu__item"><a href="catalog.html"
-                                    class="menu__link menu__link_active">Магазин</a></li>
+                                    class="menu__link @@active-catalog">Магазин</a></li>
                             <li class="menu__item"><a href="about.html" class="menu__link @@active-about">О бренде</a>
                             </li>
                             <li class="menu__item"><a href="contacts.html"
-                                    class="menu__link @@active-contacts">Контакты</a></li>
+                                    class="menu__link menu__link_active">Контакты</a></li>
                         </ul>
                     </nav>
                 </div>
