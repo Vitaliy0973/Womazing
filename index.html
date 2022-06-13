@@ -64,42 +64,83 @@
     </div>
 </header>
         <main class="main">
+
             <section class="main__preview preview">
                 <div class="prewiew__container _container">
-                    <div class="preview__row">
+                    <div class=" preview__row">
                         <div class="preview__content">
-                            <h1 class="preview__title">Новые поступления
-                                в этом сезоне</h1>
-                            <div class="preview__content-block">
-                                <div class="preview__text">Утонченные сочетания и бархатные оттенки - вот то, что вы
-                                    искали в этом сезоне. Время исследовать.</div>
-                                <div class="preview__button">
-                                    <a href="catalog.html">Открыть магазин</a>
+                            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                                <div class="carousel-indicators preview__carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="0" class="ms-2 me-2 bg-black active" aria-current="true"
+                                        aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="1" class="ms-2 me-2 bg-black" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="2" class="ms-2 me-2 bg-black" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="preview__slider-content">
+                                            <h1 class="preview__title">Новые поступления
+                                                в этом сезоне</h1>
+                                            <div class="preview__content-block">
+                                                <div class="preview__text">Утонченные сочетания и бархатные оттенки -
+                                                    вот то, что вы
+                                                    искали в этом сезоне. Время исследовать.</div>
+                                                <div class="preview__button">
+                                                    <a href="catalog.html">Открыть магазин</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="preview__slider-content">
+                                            <h1 class="preview__title">Новые поступления
+                                                в этом сезоне</h1>
+                                            <div class="preview__content-block">
+                                                <div class="preview__text">Утонченные сочетания и бархатные оттенки -
+                                                    вот то, что вы
+                                                    искали в этом сезоне. Время исследовать.</div>
+                                                <div class="preview__button">
+                                                    <a href="catalog.html">Открыть магазин</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="preview__slider-content">
+                                            <h1 class="preview__title">Новые поступления
+                                                в этом сезоне</h1>
+                                            <div class="preview__content-block">
+                                                <div class="preview__text">Утонченные сочетания и бархатные оттенки -
+                                                    вот то, что вы
+                                                    искали в этом сезоне. Время исследовать.</div>
+                                                <div class="preview__button">
+                                                    <a href="catalog.html">Открыть магазин</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="preview__slider slider-preview">
-                            <div class="slider-preview__image-block">
-                                <div class="slider-preview__images">
-                                    <div class="slider-preview__image slider-preview__image_1">
+                        <div class="preview__photos photos-preview">
+                            <div class="photos-preview__image-block">
+                                <div class="photos-preview__images">
+                                    <div class="photos-preview__image photos-preview__image_1">
                                         <picture><source srcset="img/preview/photo-1.webp" type="image/webp"><img src="img/preview/photo-1.jpg" alt=""></picture>
                                     </div>
-                                    <div class="slider-preview__image slider-preview__image_2">
+                                    <div class="photos-preview__image photos-preview__image_2">
                                         <picture><source srcset="img/preview/photo-2.webp" type="image/webp"><img src="img/preview/photo-2.jpg" alt=""></picture>
                                     </div>
-                                    <div class="slider-preview__image slider-preview__image_3">
+                                    <div class="photos-preview__image photos-preview__image_3">
                                         <picture><source srcset="img/preview/photo-3.webp" type="image/webp"><img src="img/preview/photo-3.jpg" alt=""></picture>
                                     </div>
                                 </div>
                             </div>
-                            <div class="slider-preview__buttons">
-                                <div class="slider-preview__batton"></div>
-                                <div class="slider-preview__batton slider-preview__batton_active"></div>
-                                <div class="slider-preview__batton"></div>
-                            </div>
                         </div>
                     </div>
-
                 </div>
             </section>
             <section class="main__new-collection new__collection">
@@ -199,14 +240,14 @@
                     <h2 class="command__title title">Команда мечты Womazing</h2>
                     <div class="command__row">
                         <div class="command__slider">
-                            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-                                <div class="carousel-indicators">
-                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                            <div id="carouselExampleIndicators__command" class="carousel slide" data-bs-ride="true">
+                                <div class="carousel-indicators command__carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleIndicators__command"
                                         data-bs-slide-to="0" class="active" aria-current="true"
                                         aria-label="Slide 1"></button>
-                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                    <button type="button" data-bs-target="#carouselExampleIndicators__command"
                                         data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                    <button type="button" data-bs-target="#carouselExampleIndicators__command"
                                         data-bs-slide-to="2" aria-label="Slide 3"></button>
                                 </div>
                                 <div class="carousel-inner">
@@ -221,13 +262,15 @@
                                     </div>
                                 </div>
                                 <button class="carousel-control-prev" type="button"
-                                    data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    data-bs-target="#carouselExampleIndicators__command" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon command__carousel-control-prev-icon"
+                                        aria-hidden="true"></span>
                                     <span class="visually-hidden">Предыдущий</span>
                                 </button>
                                 <button class="carousel-control-next" type="button"
-                                    data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    data-bs-target="#carouselExampleIndicators__command" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon command__carousel-control-prev-icon"
+                                        aria-hidden="true"></span>
                                     <span class="visually-hidden">Следующий</span>
                                 </button>
                             </div>
@@ -246,6 +289,7 @@
                     </div>
                 </div>
             </section>
+
         </main>
         <footer class="footer">
     <div class="footer__container _container">
